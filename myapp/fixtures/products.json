@@ -1,0 +1,29 @@
+[
+    {
+      "model": "myapp.product",
+      "pk": 1,
+      "fields": {
+        "name": "Cheeseburger Meal",
+        "price": "10.99",
+        "description": "A cheeseburger with a side of fries and drink"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 2,
+      "fields": {
+        "name": "Chicken Alfredo",
+        "price": "20.99",
+        "description": "A nice plate of fine authentic alfredo"
+      }
+    },
+    {
+      "model": "myapp.product",
+      "pk": 3,
+      "fields": {
+        "name": "Filét Mignon",
+        "price": "30.99",
+        "description": "A round of one of our fine steaks"
+      }
+    }
+  ]
