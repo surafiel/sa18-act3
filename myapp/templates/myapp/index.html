@@ -1,6 +1,12 @@
 <h1>Products</h1>
 <ul>
 {% for product in products %}
-    <li><a href="{% url 'show' product.id %}">{{ product.name }}</a></li>
+    <li>
+        <a href="{% url 'show' product.id %}">
+            <strong>Name:</strong> {{ product.name }} <br>
+            <strong>Price:</strong> ${{ product.price }} <br>
+            <strong>Description:</strong> {{ product.description }}
+        </a>
+    </li>
 {% endfor %}
 </ul>
